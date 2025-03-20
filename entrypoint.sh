@@ -72,6 +72,15 @@ cd /app/pandoc_resume
 # Run make to generate the resume
 make
 
+# TODO: Use this to generate the resume
+# docker run --rm \
+# 	--volume "`pwd`:/data" \
+# 	pandoc/latex \
+# 	--pdf-engine=xelatex \
+# 	-f markdown+smart+multiline_tables \
+# 	"/data/$input_file" \
+# 	-o "/data/$output_file"
+
 # Check if PDF was generated
 if [ ! -f "output/resume.pdf" ]; then
     echo "Error: PDF generation failed"

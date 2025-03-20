@@ -1,4 +1,4 @@
-# Pandoc Resume Docker
+# Pandoc Resume
 
 This repository provides a Docker-based solution for generating beautiful resumes using the [pandoc_resume](https://github.com/mszep/pandoc_resume) project.
 
@@ -19,10 +19,10 @@ vim resume.md
 
 ```bash
 # Basic usage (generates resume.pdf and resume.html in the same directory)
-docker run -v $(pwd):/resume ghcr.io/ruancomelli/pandoc-resume-docker resume.md
+docker run -v $(pwd):/resume ghcr.io/ruancomelli/pandoc-resume resume.md
 
 # Specify input and output files
-docker run -v $(pwd):/resume ghcr.io/ruancomelli/pandoc-resume-docker path/to/my/cv.md -o path/to/output/cv.pdf
+docker run -v $(pwd):/resume ghcr.io/ruancomelli/pandoc-resume path/to/my/cv.md -o path/to/output/cv.pdf
 ```
 
 The command will generate:

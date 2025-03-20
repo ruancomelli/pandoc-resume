@@ -1,0 +1,43 @@
+name: pandoc-resume-docker
+help: Convert markdown to pdf
+version: 0.1.0
+
+args:
+- name: input
+  required: true
+  help: Input file
+
+flags:
+- long: --force
+  short: -f
+  help: Overwrite existing files
+- long: --output
+  short: -o
+  help: "Output file (default: same as input with .pdf extension)"
+
+commands:
+  - name: help
+    help: Show help about a command
+    args:
+    - name: command
+      help: Help subject
+
+  - name: run
+    help: Run the command
+    args:
+    - name: input
+      help: Input file
+    - name: output
+      help: Output file
+
+  - name: test
+    help: Test the command
+    args:
+    - name: input
+      help: Input file
+    - name: output
+      help: Output file
+
+examples:
+- download example.com
+- download example.com ./output -f

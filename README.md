@@ -1,8 +1,8 @@
 # Pandoc Resume
 
-<!-- [![CI](https://github.com/ruancomelli/brag-ai/actions/workflows/ci.yaml/badge.svg)](https://github.com/ruancomelli/brag-ai/actions/workflows/ci.yaml) -->
+<!-- [![CI](https://github.com/ruancomelli/pandoc-resume/actions/workflows/ci.yaml/badge.svg)](https://github.com/ruancomelli/pandoc-resume/actions/workflows/ci.yaml) -->
 
-[![Codecov](https://codecov.io/gh/ruancomelli/brag-ai/branch/main/graph/badge.svg)](https://codecov.io/gh/ruancomelli/brag-ai)
+[![Codecov](https://codecov.io/gh/ruancomelli/pandoc-resume/branch/main/graph/badge.svg)](https://codecov.io/gh/ruancomelli/pandoc-resume)
 [![Sourcery](https://img.shields.io/badge/Sourcery-enabled-orange?logo=hackthebox&logoColor=orange)](https://sourcery.ai)
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)

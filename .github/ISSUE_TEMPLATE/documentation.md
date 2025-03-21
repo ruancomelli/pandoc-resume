@@ -7,7 +7,9 @@ assignees: ""
 ---
 
 **Is your documentation request related to a problem? Please describe.**
-A clear and concise description of what the documentation issue is. Ex. I found the documentation for [feature] confusing because [...]
+A clear and concise description of what the documentation issue is.
+
+E.g. I found the documentation for [feature] confusing because [...]
 
 **Describe what documentation needs to be added or improved**
 A clear and concise description of what documentation changes you'd like to see.

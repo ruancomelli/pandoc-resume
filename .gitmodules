@@ -1,0 +1,3 @@
+[submodule "pandoc-resume-generator"]
+	path = pandoc-resume-generator
+	url = https://github.com/ruancomelli/pandoc-resume-generator

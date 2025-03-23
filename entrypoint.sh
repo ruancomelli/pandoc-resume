@@ -67,12 +67,12 @@ mkdir -p "$OUTPUT_DIR"
 cp "/resume/$INPUT_FILE" /app/pandoc_resume/markdown/resume.md
 
 # Change to the pandoc_resume directory
-cd /app/pandoc_resume
+cd /app
 
 # Run make to generate the resume
 make
 
-# TODO: Use this to generate the resume
+# TODO: Use this to generate the resume?
 # docker run --rm \
 # 	--volume "`pwd`:/data" \
 # 	pandoc/latex \
@@ -90,8 +90,8 @@ if [ ! -f "output/resume.pdf" ]; then
 fi
 
 # Copy the generated files back to the mounted volume
-cp output/resume.pdf "/resume/$OUTPUT_FILE"
-cp output/resume.html "/resume/${OUTPUT_FILE%.*}.html"
+mv output/resume.pdf "/resume/$OUTPUT_FILE"
+mv output/resume.html "/resume/${OUTPUT_FILE%.*}.html"
 
 echo "Resume generated successfully!"
 echo "Output files:"
